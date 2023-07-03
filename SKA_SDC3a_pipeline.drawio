@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T14:33:08.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="l8ZzM-rKlpsIGGQjjvEV" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T14:46:03.485Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FeaT2nnWH1yEA7rL1qge" version="21.3.5" type="github">
   <diagram name="Page-1" id="LzQfan2fVGmqFf8SJS7W">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vqMxUyNNRgz20PkC89nC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-2" target="vqMxUyNNRgz20PkC89nC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-2" value="&lt;font color=&quot;#000000&quot;&gt;Image data file&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="319" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-4" target="vqMxUyNNRgz20PkC89nC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-4" value="&lt;font color=&quot;#000000&quot;&gt;Read in image data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="279" y="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-6" target="vqMxUyNNRgz20PkC89nC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-6" value="&lt;font color=&quot;#000000&quot;&gt;Foreground subtraction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="279" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-8" target="vqMxUyNNRgz20PkC89nC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-8" value="&lt;font color=&quot;#000000&quot;&gt;Convert the image data from Jy/beam to K&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="279" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-10" target="vqMxUyNNRgz20PkC89nC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-10" value="&lt;font color=&quot;#000000&quot;&gt;Convert (MHz, deg, deg) to comoving&lt;br&gt;&amp;nbsp;(Mpc, Mpc, Mpc)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="279" y="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-12" target="vqMxUyNNRgz20PkC89nC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-12" value="&lt;font color=&quot;#000000&quot;&gt;Compute 2d power spectrum for each frequency bin&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="279" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-13" value="&lt;font color=&quot;#000000&quot;&gt;2d power spectrum and error&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="319" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-15" target="vqMxUyNNRgz20PkC89nC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-15" value="&lt;font color=&quot;#000000&quot;&gt;bins_frequency.txt&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="39" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vqMxUyNNRgz20PkC89nC-17" target="vqMxUyNNRgz20PkC89nC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqMxUyNNRgz20PkC89nC-17" value="&lt;font color=&quot;#000000&quot;&gt;bins_kper.txt&lt;br&gt;bins_kpar.txt&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="599" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
